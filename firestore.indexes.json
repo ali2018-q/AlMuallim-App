@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "leaderboard",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "totalPoints", "order": "DESCENDING" },
+        { "fieldPath": "completedStages", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
